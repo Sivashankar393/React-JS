@@ -11,8 +11,6 @@ class App extends Component{
         <Table/>
         <h1>Table2</h1>
         <Table/>
-        <h1>Table3</h1>
-        <Table/>
       </div>
     )
   }
