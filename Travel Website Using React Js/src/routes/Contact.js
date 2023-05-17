@@ -1,6 +1,7 @@
 import Hero from "../components/Hero"
 import Navbar from"../components/Navbar"
-import AboutImg from"../assets/imag1.jpg"
+import AboutImg from"../assets/imag5.jpg"
+import Footer from"../components/Footer";
 
 
 
@@ -10,11 +11,15 @@ function Contact (){
          <Navbar/>
         <Hero 
         cName=".hero-mid"
-        heroImg={Contact}
+        heroImg={AboutImg}
 
         title="Contact"
-        btnClass="hide"/>
+        btnClass="hide"
+        />
+        <ContactForm/>
+          <Footer/>
         </>
+          
     )
 }
 export default Contact;

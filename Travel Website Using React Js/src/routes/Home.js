@@ -1,6 +1,8 @@
 import Destination from "../components/Destination";
-import Hero from "../components/Hero"
-import Navbar from"../components/Navbar"
+import Footer from "../components/Footer";
+import Hero from "../components/Hero";
+import Navbar from"../components/Navbar";
+import Trip from "../components/Trip";
 function Home (){
     return (
         <>
@@ -16,7 +18,13 @@ function Home (){
         btnClass="show"
 
 
+
+        
         />
+        <Destination/>
+        <Trip/>
+        <Footer/>
+     
         </>
     )
 }   
